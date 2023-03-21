@@ -1,0 +1,64 @@
+body {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+h1 {
+    margin-left: 15px;
+    font-size: 3rem;
+}
+
+.wrapper {
+    max-width: 400px;
+}
+
+.input-time {
+    display: block;
+    font-size: 2rem;
+    min-width: 150px;
+    min-height: 50px;
+    border: 2px solid lightgray;
+    padding: 10px;
+    cursor: text;
+}
+
+.wrapper {
+    margin-top: 10px;
+    font-size: 1.5rem;
+    display: flex;
+    text-align: center;
+}
+
+.wrapper div {
+    padding: 10px 15px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: cornsilk;
+    cursor: pointer;
+}
+
+.input-submit {
+    display: block;
+    margin-right: 10px;
+}
+
+.input-submit:hover,
+.pause:hover {
+    color: darkgray;
+    background-color: white;
+}
+
+.hide {
+    display: none;
+}
+
+.pause {
+    width: fit-content;
+    margin-left: 10px;
+}
+
+.delay {
+    width: 100%;
+    font-size: 2rem;
+}
